@@ -9,7 +9,13 @@ const Sidebar = () => {
         
         <div className="sidebar">
         <div style={{ display: "flex" }}>
-        <Avatar className="avatar">T</Avatar>
+        <Avatar className="avatar">H
+        </Avatar>
+        
+        </div>
+        <div className="both">
+        <span className="name">Tarun chaudhary</span>
+        <span className="email">tarunchaudhary@ddtech.in</span>
         </div>
             <ul className="sidebarList">
             {SidebarMenu.map((val,key)=> {
@@ -25,6 +31,7 @@ const Sidebar = () => {
                 )
             })}
             </ul>
+            
         </div>
         </>
     )

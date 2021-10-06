@@ -1,23 +1,24 @@
 .sidebar{
-    height: 100%;
-    width: 20%;
-    background-color: #2F4050;
+    height: 100vh;
+    width: 100%;
+    background-color: #FFFFFF;
 }
 
 .sidebarList{
     height: auto;
     padding: 0;
     width: 100%;
+    margin-top: 10%;
 }
 
 .sidebarList .row{
     height: 60px;
-    width: 100%;
+    /* width: 100%; */
     list-style-type: none;
     margin: 0;
-    display: flex;
-    flex-direction: row;
-    color: white;
+    /* display: flex;
+    flex-direction: row; */
+    color: #3E8BE2;
     justify-content: center;
     align-items: center;
     font-size: 'Trebuchet MS', 'Lucida sans Unicode', 'Lucida Grande', 'Lucida sans', Arial, sans-serif;
@@ -25,11 +26,11 @@
 
 .sidebarList .row:hover{
     cursor: pointer;
-    background-color: #1c2935;
+    background-color: #d8e8f9;
 }
 
 .sidebarList #active{
-    background-color: #1c2935;
+    background-color: #d8e8f9;
 }
 
 .row #icon{
@@ -42,9 +43,32 @@
     flex: 70%;
 }
 
-.avatar{
+.avatar{ 
+    
     height: 100%;
     width: 100%;
-    padding: 20%;
-    margin: 23%;
+    padding: 15%;
+    margin: 20%;
+    left: 15%;
+    background-color:  #3E8BE2 !important;
+    font-size: x-large !important;
+    font-weight: bolder !important;
+    text-align: center !important;
+}
+
+.both{
+    display: grid;
+    justify-content: center;
+    margin-top: -40px;
+    overflow-x: hidden;
+}
+
+.name{
+    font-weight: bolder !important;
+    /* margin-left: 22%; */
+}
+
+.email{
+    color: #3E8BE2;
+    /* margin-left: 10%; */
 }
